@@ -35,7 +35,7 @@ public class SongImporter
                 lineNumber++; // Keep track of line numbers to make inspection of data errors simpler.
 
                 // Limit to 30 lines for testing (remove when you are testing real files)
-                if (lineNumber > 30)
+                if (lineNumber > 300000000)
                 {
                     break;
                 }
@@ -62,7 +62,7 @@ public class SongImporter
                 //System.out.println("artist: " + artist + " length: " + length + "topic: " + topic);
 
                 // Replace the next line with your song constructor
-                Song song = new Song(artistName, trackName); // code to construct a song object
+                Song song = new Song(artistName, trackName, releaseDate, genre, length, shakeTheAudience, obscene, danceability, loudness, topic); // code to construct a song object
 
                 // Add the song object to the data output. (Leave alone!~)
                 songs.add(song);

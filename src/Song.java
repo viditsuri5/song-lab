@@ -33,7 +33,7 @@ public class Song
   // toString for printing the object
   public String toString()
   {
-    return artist + " - " + title + " - "+date + " - "+ genre + " - "+ len +" - "+ Shake_the_audience+ " - "+ obscene+ " - "+danceability + " - "+ loudness+" - "+ topic;
+    return artist + " - " + title + " - "+ date + " - "+ genre + " - "+ len +" - "+ Shake_the_audience+ " - "+ obscene+ " - "+danceability + " - "+ loudness+" - "+ topic;
   }
   
   // Getters for getting private instance variables
@@ -89,4 +89,37 @@ public class Song
   {
     this.artist = artist;
   }
+  public void setDate(String date)
+  {
+      this.date = date;
+  }
+  public void setGenre(String genre)
+  {
+      this.genre = genre;
+  }
+  public void setLen(String len)
+  {
+      this.len = len;
+  }
+  public void setShake_the_audience(String Shake_audience)
+  {
+      this.Shake_the_audience = Shake_audience;
+  }
+  public void setObscene(String obscene)
+  {
+      this.obscene = obscene;
+  }
+  public void setDanceability(String danceability)
+  {
+      this.danceability = danceability;
+  }
+  public void setLoudness(String loudness)
+  {
+      this.loudness = loudness;
+  }
+  public void setTopic(String topic)
+  {
+      this.topic = topic;
+  }
+
 }
